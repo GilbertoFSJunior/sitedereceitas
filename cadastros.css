@@ -1,0 +1,51 @@
+/* Estilos específicos para o formulário de cadastro de usuário */
+
+.nav {
+  color: white;
+}
+
+/* Área principal */
+.container-fluid {
+  padding: 20px; /* Adiciona um espaçamento interno */
+}
+
+/* Espaçamento abaixo do título */
+.container-fluid h1 {
+  margin-bottom: 20px;
+}
+
+/* Largura total para o formulário */
+.container-fluid form {
+  width: 100%;
+}
+
+/* Espaçamento entre grupos de formulário */
+.container-fluid .form-group {
+  margin-bottom: 20px;
+}
+
+/* Espaçamento entre as linhas do formulário */
+.container-fluid .form-row {
+  margin-bottom: 20px;
+}
+
+/* Rótulos em negrito */
+.container-fluid .form-group label {
+  font-weight: bold;
+}
+
+/* Campos de entrada ocupam toda a largura do container */
+.container-fluid .form-control {
+  width: 100%;
+}
+
+/* Botão de cadastro ocupa toda a largura disponível */
+.container-fluid .btn-primary {
+  width: 100%;
+}
+
+/* Estilos para o rodapé */
+footer {
+  text-align: center;
+  padding: 10px 0;
+}

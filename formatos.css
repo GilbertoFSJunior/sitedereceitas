@@ -1,0 +1,77 @@
+/* Definir uma classe para a logotipo, com largura e altura de 50 pixels */
+.logo {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #e46262;
+  padding: 180px;
+}
+
+footer {
+  background-color: #2b2929; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto */
+}
+
+h1 {
+  font-size: 2em; /* Tamanho de fonte para títulos de primeiro nível */
+  font-weight: bold; /* Espessura de fonte para títulos de primeiro nível */
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em; /* Tamanho de fonte para títulos de segundo nível */
+  font-weight: bold; /* Espessura de fonte para títulos de segundo nível */
+  text-align: center;
+}
+
+p {
+  text-align: center; /* Estilos padrão para parágrafos */
+}
+
+nav {
+  background-color: #2b2929;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav li a:hover {
+  background-color: #2b2929;
+}
+
+.dropdown-menu {
+  position: absolute;
+  box-shadow: 0 02px #e46262;
+  display: none;
+}
+
+.dropdown-menu a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.main {
+  background-color: #e46262;
+  padding: 160px;
+}
+
+.footer {
+  background-color: gray;
+}
